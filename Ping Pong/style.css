@@ -2,7 +2,7 @@ body{
 	height:100%;
 	width:100%;
 	margin:0;
-	background-image: url("d.jpg");
+	background-color:black;
 }
 
 #container {
@@ -13,6 +13,7 @@ body{
 		background-color:black;
 		margin-top:100px;
 		overflow:hidden;
+		border:3px solid white;
 }
 
 #ball {
@@ -35,10 +36,18 @@ body{
 
 #paddle_1 {
 	bottom:0;
+	background-color: red;
+	text-align: center;
+	font-weight: bold;
+	color:white;
 }
 
 #paddle_2 {
 	top:0;
+	background-color: blue;
+	text-align: center;
+	font-weight: bold;
+	color:white;
 }
 
 #restart_div {
